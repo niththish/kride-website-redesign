@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#header{
+    display: flex;
+    flex-direction: row;
+}
+#header img{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
+#navheaderImg{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+#section1 #section1Row{
+    height: 80vh;
+}
+#section1Carousel img{
+    height: 80vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+#section1 .card-body{
+    height: 29vh;
+    display: flex;
+    flex-direction: column;
+
+}
+#section2  .card{
+    border-radius: 10px;
+}
+#section2  .card img{
+    border-radius: 10px;
+}
+#section2  #sidemenu .card,
+#section2  #sidemenu .card img{
+    border-radius: 0px;
+}
+#section4 #section4logo{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+#section3 img{
+    border-radius: 10px;
+    opacity: 1;
+    transition: 2s ease;
+    
+}
+#section3 img:hover{
+    opacity: 0.5;
+    transform: scale(0.5);
+    
+}
+.headercolor{
+    background-image: linear-gradient(to right, #1FA2FF 0%, #12D8FA  51%, #1FA2FF  100%);
+    color: white;       
+   
+}
+ 
+.dropdowncolor{
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+.dropdown-item:hover{
+    background: #EB3349;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F45C43, #EB3349);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F45C43, #EB3349); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.nav-link{
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+}
+.nav-link:hover{
+    transform: scale(1.07);
+}
+
+ 
+ .section2color {
+    background-color: #FBAB7E;
+    background-image: linear-gradient(to right, #FF512F 0%, #ff9253  51%, #FF512F  100%);
+       
+    }
+ .section2color {
+    transition: 1.3s ease;
+    background-size: 200% auto;
+    color: white;
+                
+    
+  }
+
+  .section2color:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+ 
+  
+  
+  .btn-grad {background-image: linear-gradient(to right, #2b5876 0%, #4e4376  51%, #2b5876  100%)}
+  .btn-grad {
+     margin: 10px;
+     padding: 15px 45px;
+     text-align: center;
+     text-transform: uppercase;
+     transition: 0.5s;
+     background-size: 200% auto;
+     color: white;            
+     box-shadow: 0 0 20px #eee;
+     border-radius: 10px;
+     display: block;
+   }
+
+   .btn-grad:hover {
+     background-position: right center; /* change the direction of the change here */
+     color: #fff;
+     text-decoration: none;
+   }
+
+   .paranimate{
+    position: relative;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    overflow: hidden;
+    background: linear-gradient(to right, #2b5876 0%, #4e4376  51%, #2b5876  100%);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: animate 5s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+  }
+  
+  @keyframes animate {
+    0% {
+      background-position: -500%;
+    }
+    100% {
+      background-position: 500%;
+    }
+  }
+
+  #cardimg {
+      opacity: 1;
+      transition: 1s ease;
+  }
+  #cardimg:hover{
+      opacity: 0.5;
+  }
+  
+  #cardcolor{
+    background-color: #FBAB7E;
+    background-image: linear-gradient(to right, #FF512F 0%, #ff9253  51%, #FF512F  100%);
+     transition: 0.5s;
+     background-size: 200% auto;
+     color: #ffffff;            
+     
+  }
+  #cardcolor:hover{
+    background-position: right center; /* change the direction of the change here */
+    color: #ffffff;
+    transform: scale(1.05);
+    
+  }
+
+  #cardcolor1{
+    background-color: #FBAB7E;
+    background-image: linear-gradient(to right, #FF512F 0%, #ff9253  90%);
+    opacity: 1;
+    transition: 1s ease;
+  }
+  #cardcolor1:hover{
+    background-position: right center; /* change the direction of the change here */
+    color: #ffffff;
+    transform: scale(1.05);
+    
+  }
+
+
+  #cardcolor1 img{
+    opacity: 1;
+    transition: 1s ease;
+      
+  }
+  #cardcolor1 img:hover{
+      opacity:0.6;
+  }
+
+
+   .footer{
+       background-color: black;
+       color: white;
+   }
+  
+  .footer img{
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+  }
+  
+@media  screen and (max-width: 991px) {
+    
+}
