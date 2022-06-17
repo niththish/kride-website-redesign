@@ -1,3 +1,3 @@
-# web-developement
+# Redesign of the K-ride website
 
-This repository contains all my simple web applications created using html css js.
+This repository contains the responsive redesign of the existing k-ride website using html & bootstrap
