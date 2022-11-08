@@ -1,3 +1,3 @@
-# Redesign of the K-ride website
+# K-ride website (responsive redesign)
 
-This repository contains the responsive redesign of the existing k-ride website using html & bootstrap
+This repository contains the responsive redesign of the existing k-ride website using bootstrap
